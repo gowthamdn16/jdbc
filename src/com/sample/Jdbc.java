@@ -23,7 +23,7 @@ public static void main(String[] args) {
 		
 		 while (rs.next()) {
 			 
-			 String name = rs.getString("FIRSTNAME");
+			 String name = rs.getString("firstname");
 			 String pass = rs.getString("LASTNAME");
 			 System.out.println(name);
 			 System.out.println(pass);
